@@ -1,0 +1,16 @@
+dataset,model,MASE,WQL
+electricity_15min,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,2.702528718921398,0.4264418622151147
+m4_daily,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,4.568249381749106,0.03224026289487336
+m4_hourly,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,11.069180830907962,0.1328546609618936
+m4_monthly,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,1.3460550020681723,0.12712073891106435
+m4_weekly,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,3.54781916890891,0.06163415406896311
+monash_electricity_hourly,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,4.248205864824344,0.3343094765501305
+monash_electricity_weekly,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,3.145886198551261,0.182774857943679
+monash_kdd_cup_2018,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,0.8552044190967677,0.4007332089984204
+monash_london_smart_meters,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,1.328857149179219,0.6048750519315056
+monash_pedestrian_counts,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,0.8574287446420128,0.621388084177225
+monash_rideshare,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,1.0668175671191749,0.1843841741841396
+monash_temperature_rain,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,1.2176949349618968,0.7863913521263906
+taxi_30min,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,1.778080124507898,0.5699460193802283
+uber_tlc_daily,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,1.259228056825865,0.17957348015312685
+uber_tlc_hourly,/data/horse/ws/juha972b-llm_test/output/run-huggingface/checkpoint-final,1.16797996553018,0.49145786852544937
