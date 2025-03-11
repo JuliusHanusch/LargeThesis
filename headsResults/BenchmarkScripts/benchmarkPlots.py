@@ -41,7 +41,7 @@ def generate_combined_benchmark_plot(metric):
             width = 0.15  # Adjusted width for individual bars
             x_positions = np.arange(config_range[0], config_range[1] + 1)  # Config IDs for current split
             
-            ax.set_xticks(x_positions - 1)  # Shifting X positions for better display
+            ax.set_xticks(x_positions)  # Set X positions correctly
             ax.set_xticklabels(x_positions, rotation=90, fontsize=8)
 
             # Loop over each scaling parameter
@@ -75,7 +75,7 @@ def generate_combined_benchmark_plot(metric):
                 
                 df = df.sort_values(by="Config_ID")
 
-                # Align bars correctly for comparison
+                # Align bars correctly for comparison (remove extra shifting)
                 ax.bar(x_positions + (k - 2) * width, df[metric], width,
                        label=scaling_param.replace("_", " ").title(),
                        color=COLORS[scaling_param])
